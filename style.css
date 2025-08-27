@@ -1,0 +1,140 @@
+/* ===== GLOBAL STYLE ===== */
+html {
+  scroll-padding-top: 80px; /* jarak otomatis saat scroll anchor link */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7ff;
+  padding-top: 70px; /* agar konten utama tidak ketutup navbar */
+}
+
+h1, h2, h4, h5 {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #3b82f6 !important; /* warna biru */
+}
+
+/* ===== BUTTON ===== */
+.btn-primary {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+/* ===== HERO SECTION ===== */
+.profile-shape {
+  background: #3b82f6;
+  border-radius: 50% 40% 50% 60% / 50% 60% 40% 50%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.profile-shape img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ===== ABOUT SECTION ===== */
+#about img {
+  border: 5px solid #000000;
+}
+
+/* ===== SKILLS SECTION ===== */
+.skill-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== WORKS SECTION ===== */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  background-color: #f9faff;
+}
+
+.contact-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== FOOTER ===== */
+footer i {
+  font-size: 1.5rem;
+  color: #111827;
+  transition: 0.3s;
+}
+
+footer i:hover {
+  color: #3b82f6;
+}
+
+/* Hover effect untuk ikon kontak */
+.contact-icon {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2);
+}
+
+.contact-icon.whatsapp:hover {
+  color: #25D366; /* hijau WhatsApp */
+}
+
+.contact-icon.instagram:hover {
+  color: #E1306C; /* pink Instagram */
+}
+
+.contact-icon.linkedin:hover {
+  color: #0077B5; /* biru LinkedIn */
+}
+
+.contact-icon.github:hover {
+  color: #333; /* abu gelap GitHub */
+}
+
+html {
+  scroll-padding-top: 80px; /* jarak otomatis saat scroll anchor link */
+}
+
+/* ===== GLOBAL STYLE ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7ff;
+  padding-top: 70px; /* biar konten gak ketutup navbar */
+}
+
+#about {
+  scroll-margin-top: -40px; /* biar pas About Me muncul tepat di bawah navbar */
+}
